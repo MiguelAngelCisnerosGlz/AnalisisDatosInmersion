@@ -81,3 +81,5 @@ inmuebles_seleccionados = inmuebles[inmuebles['Tipo'].isin(tipos_inmuebles)]
 grafica2= sns.histplot(data=inmuebles_seleccionados,x='Precio_Millon',kde=True,hue='Tipo')
 
 plt.show()
+
+
